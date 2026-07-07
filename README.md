@@ -105,6 +105,32 @@ noqa action alert --action accept                       # accept a system alert 
 
 Full command reference: [docs.noqa.ai/docs/cli](https://docs.noqa.ai/docs/cli).
 
+## Test cases
+
+A test case is a title, optional tags, and one or more flows. Each flow is written in plain language — no code, no selectors.
+
+<div align="center">
+
+<img src="assets/case.png" alt="A noqa test case" width="820" />
+
+</div>
+
+- **Title** — a short name for the test.
+- **Tags** — optional labels to group and filter cases (`smoke`, `regression`, …).
+- **Instructions** — what the agent should do, step by step.
+- **Expected result** — what it should verify after each step (optional).
+
+Create and manage them in the app or from the CLI:
+
+```bash
+noqa cases create myapp '{"title": "Login", "tags": ["smoke"], "flows": [{"instructions": "tap Sign in, enter credentials", "result": "home screen shows"}]}'
+noqa cases list myapp                       # list cases (ID, TITLE, TAGS)
+noqa cases get myapp 42                      # show a case as JSON
+noqa cases update myapp 42 '{"title": "…"}'  # edit fields of a case
+```
+
+See [Writing good test cases](https://docs.noqa.ai/guide/writing-test-cases).
+
 ## Production-ready testing
 
 Beyond the free CLI, a subscription unlocks noqa's own agent and, for teams, the full platform.
