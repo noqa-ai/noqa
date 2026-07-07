@@ -4,7 +4,7 @@
 
 ### Agentic QA automation for mobile apps and games
 
-🌐 **[noqa.ai](https://noqa.ai)** · 📖 **[Documentation](https://docs.noqa.ai)** · 🍎 **[Download for Mac](https://cdn.noqa.ai/app/macos/releases/latest/noqa.dmg)**
+**[noqa.ai](https://noqa.ai)** · **[Documentation](https://docs.noqa.ai)** · **[Download (Apple Silicon)](https://cdn.noqa.ai/app/macos/releases/latest/noqa.dmg)**
 
 </div>
 
@@ -18,7 +18,7 @@ noqa is an AI agent that tests mobile apps and games from natural-language test 
 
 <div align="center">
 
-<video src="https://cdn.noqa.ai/media/demo.mp4" controls muted loop playsinline width="820"></video>
+<video src="https://raw.githubusercontent.com/noqa-ai/noqa/main/assets/demo.mp4" controls muted loop playsinline width="820"></video>
 
 </div>
 
