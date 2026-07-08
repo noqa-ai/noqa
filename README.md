@@ -26,15 +26,24 @@ noqa is an AI agent that tests mobile apps and games from natural-language test 
 
 noqa works straight from the screenshot
 
-| | Locator-based<br/><sub>Appium · Maestro · XCUITest</sub> | noqa |
-|---|:---:|:---:|
-| **Native apps** <br/><sub>iOS & Android</sub> | ✅ | ✅ |
-| **Cross-platform apps** <br/><sub>React Native, Flutter</sub> | Partial | ✅ |
-| **Non-native UI** <br/><sub>webviews, canvases, ads, maps</sub> | ❌ | ✅ |
-| **Games** <br/><sub>Unity, Unreal, Godot</sub> | ❌ | ✅ |
-| **Alerts & pop-ups** <br/><sub>permissions, system dialogs</sub> | Flaky | ✅ |
-| **Natural-language tests** <br/><sub>no code</sub> | ❌ | ✅ |
-| **Real devices** <br/><sub>physical phones, not just simulators</sub> | Partial | ✅ |
+<table width="100%">
+<thead>
+<tr>
+<th align="left" width="56%"></th>
+<th align="center" width="29%">Locator-based (Appium · Maestro · XCUITest)</th>
+<th align="center" width="15%">noqa</th>
+</tr>
+</thead>
+<tbody>
+<tr><td align="left"><strong>Native apps</strong><br/><sub>iOS &amp; Android</sub></td><td align="center">✅</td><td align="center">✅</td></tr>
+<tr><td align="left"><strong>Cross-platform apps</strong><br/><sub>React Native, Flutter</sub></td><td align="center">Partial</td><td align="center">✅</td></tr>
+<tr><td align="left"><strong>Non-native UI</strong><br/><sub>webviews, canvases, ads, maps</sub></td><td align="center">❌</td><td align="center">✅</td></tr>
+<tr><td align="left"><strong>Games</strong><br/><sub>Unity, Unreal, Godot</sub></td><td align="center">❌</td><td align="center">✅</td></tr>
+<tr><td align="left"><strong>Alerts &amp; pop-ups</strong><br/><sub>permissions, system dialogs</sub></td><td align="center">Flaky</td><td align="center">✅</td></tr>
+<tr><td align="left"><strong>Natural-language tests</strong><br/><sub>no code</sub></td><td align="center">❌</td><td align="center">✅</td></tr>
+<tr><td align="left"><strong>Real devices</strong><br/><sub>physical phones, not just simulators</sub></td><td align="center">Partial</td><td align="center">✅</td></tr>
+</tbody>
+</table>
 
 ## Quick start
 
