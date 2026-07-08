@@ -22,6 +22,20 @@ noqa is an AI agent that tests mobile apps and games from natural-language test 
 
 </div>
 
+## Purely visual test automation
+
+noqa works straight from the screenshot
+
+| | Locator-based<br/><sub>Appium · Maestro · XCUITest</sub> | noqa |
+|---|:---:|:---:|
+| **Native apps** <br/><sub>iOS & Android</sub> | ✅ | ✅ |
+| **Cross-platform apps** <br/><sub>React Native, Flutter</sub> | Partial | ✅ |
+| **Non-native UI** <br/><sub>webviews, canvases, ads, maps</sub> | ❌ | ✅ |
+| **Games** <br/><sub>Unity, Unreal, Godot</sub> | ❌ | ✅ |
+| **Alerts & pop-ups** <br/><sub>permissions, system dialogs</sub> | Flaky | ✅ |
+| **Natural-language tests** <br/><sub>no code</sub> | ❌ | ✅ |
+| **Real devices** <br/><sub>physical phones, not just simulators</sub> | Partial | ✅ |
+
 ## Quick start
 
 **1. Install the app.** [Download noqa](https://cdn.noqa.ai/app/macos/releases/latest/noqa.dmg) and keep it running — the CLI talks to it locally.
