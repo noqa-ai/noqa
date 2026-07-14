@@ -4,7 +4,7 @@
 
 ### Agentic QA automation for mobile apps and games
 
-**[noqa.ai](https://noqa.ai)** · **[Documentation](https://docs.noqa.ai)** · **[Download (Apple Silicon)](https://cdn.noqa.ai/app/macos/releases/latest/noqa.dmg)**
+**[noqa.ai](https://noqa.ai)** · **[Documentation](https://docs.noqa.ai)** · **[Download](https://noqa.ai/download)**
 
 </div>
 
@@ -38,24 +38,26 @@ noqa works from screenshots, unlike locator-based tools (Appium · Maestro · XC
 
 ## Quick start
 
-**1. Install the app.** [Download noqa](https://cdn.noqa.ai/app/macos/releases/latest/noqa.dmg) and keep it running — the CLI talks to it locally.
+**1. Install the app.** [Download noqa](https://noqa.ai/download) and keep it running — the CLI talks to it locally.
 
-**2. Install the CLI and skill.** In the app, open **Settings → Tools → Install CLI** (adds `noqa` to your `PATH`) — and click **Install skill** too, so your coding agent knows the commands out of the box. Restart your terminal afterward. The skill also lives here in [`skills/noqa-testing`](skills/noqa-testing) if you'd rather add it manually.
+**2. Create a free account** at [app.noqa.ai](https://app.noqa.ai).
 
-**3. Connect a device.** List devices, pick one, and connect:
+**3. Install the CLI and skill.** In the app, open **Settings → Tools → Install CLI** (adds `noqa` to your `PATH`) — and click **Install skill** too, so your coding agent knows the commands out of the box. Restart your terminal afterward. The skill also lives here in [`skills/noqa-testing`](skills/noqa-testing) if you'd rather add it manually.
+
+**4. Connect a device.** List devices, pick one, and connect:
 
 ```bash
 noqa devices ios                       # list iOS devices & simulators (or: noqa devices android)
 noqa devices connect <device-id>       # connect to one from the list
 ```
 
-**4. Get your app on the device.** Install your build (Xcode, Expo, Android Studio) and bring it to the foreground:
+**5. Get your app on the device.** Install your build (Xcode, Expo, Android Studio) and bring it to the foreground:
 
 ```bash
 noqa action activate-app --bundle-id com.example.app
 ```
 
-**5. Debug it in an inspect → act → verify loop.**
+**6. Debug it in an inspect → act → verify loop.**
 
 ```bash
 noqa screen                                    # inspect: read the current UI as a structured element tree
