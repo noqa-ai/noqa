@@ -40,7 +40,7 @@ noqa works from screenshots, unlike locator-based tools (Appium · Maestro · XC
 
 **1. Install the app.** [Download noqa](https://noqa.ai/download) and keep it running — the CLI talks to it locally.
 
-**2. Create a free account** at [app.noqa.ai](https://app.noqa.ai).
+**2. Create a free account.**
 
 **3. Install the CLI and skill.** In the app, open **Settings → Tools → Install CLI** (adds `noqa` to your `PATH`) — and click **Install skill** too, so your coding agent knows the commands out of the box. Restart your terminal afterward. The skill also lives here in [`skills/noqa-testing`](skills/noqa-testing) if you'd rather add it manually.
 
