@@ -18,7 +18,7 @@ noqa is an AI agent that tests mobile apps and games from natural-language test 
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/6f651245-febf-44e8-92dc-c7ab604e69ce" alt="noqa CLI grounding demo" width="820" />
+<img src="https://github.com/user-attachments/assets/821bc56e-6826-4333-8aaa-b506b672f3e5" alt="noqa CLI grounding demo" width="820" />
 
 </div>
 
