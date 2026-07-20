@@ -61,6 +61,7 @@ A single-action flow stays a single line — don't number a list of one:
 - Tap: ❌ `Tap the button.` ✅ `Tap the "Sign in" button at the bottom of the screen.`
 - Swipe: ❌ `Swipe left.` ✅ `Swipe left on the "Inbox" card to reveal the delete button.`
 - Drag: ❌ `Drag the item up.` ✅ `Drag the "Work" task and drop it above the "Personal" task.`
+- Pinch: ❌ `Zoom in.` / `Make it bigger.` ✅ `Pinch to zoom in on the map to reveal street names.` / `Pinch to enlarge the selected "Sale" text sticker.`
 
 ## Instructions vs expected result — keep them separate
 
