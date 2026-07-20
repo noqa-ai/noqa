@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn.noqa.ai/media/logo.png" alt="noqa" width="240" />
+<a href="https://noqa.ai"><img src="https://cdn.noqa.ai/media/logo.png" alt="noqa" width="240" /></a>
 
 ### Agentic QA automation for mobile apps and games
 
@@ -18,7 +18,7 @@ noqa is an AI agent that tests mobile apps and games from natural-language test 
 
 <div align="center">
 
-<video src="https://github.com/user-attachments/assets/ec9106bd-ed7f-4232-b673-a8d98acd748d" controls muted loop playsinline width="820"></video>
+<img src="https://github.com/user-attachments/assets/821bc56e-6826-4333-8aaa-b506b672f3e5" alt="noqa CLI grounding demo" width="820" />
 
 </div>
 
