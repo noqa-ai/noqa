@@ -32,6 +32,15 @@ noqa action drag --x1 <x1> --y1 <y1> --x2 <x2> --y2 <y2>
 noqa action drag --x1 200 --y1 500 --x2 800 --y2 500
 ```
 
+### Pinch
+Zoom a surface or resize a selected object. `--direction in` zooms in / enlarges, `out` zooms out / shrinks. `(x1, y1)`–`(x2, y2)` is the area (or object) to pinch (top-left → bottom-right); only its center anchors the gesture.
+```bash
+noqa action pinch --direction <in|out> --x1 <x1> --y1 <y1> --x2 <x2> --y2 <y2>
+```
+```bash
+noqa action pinch --direction in --x1 200 --y1 200 --x2 800 --y2 900
+```
+
 ### Input text
 ```bash
 noqa action input --text <text> --x <x> --y <y>

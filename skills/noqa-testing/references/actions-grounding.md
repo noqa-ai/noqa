@@ -52,6 +52,17 @@ noqa action drag -d "<description>"
 noqa action drag -d "drag list item 'Groceries' above 'Work' to reorder"
 ```
 
+### Pinch
+Two-finger pinch to **zoom** a surface (map/image/camera/page) or **resize** a selected on-canvas object (sticker/text/shape). `in` = zoom in / enlarge, `out` = zoom out / shrink. Describe the area to zoom or the object to resize.
+```bash
+noqa action pinch --direction <in|out> -d "<description>"
+```
+```bash
+noqa action pinch --direction in -d "map in the center of the screen to reveal street names"
+noqa action pinch --direction out -d "photo in the image viewer to fit the whole picture"
+noqa action pinch --direction in -d "selected 'Sale' text sticker on the canvas to make it bigger"
+```
+
 ### Input text
 Describe the field by its label or placeholder.
 ```bash

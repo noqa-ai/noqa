@@ -27,7 +27,7 @@ Every workflow needs the user to be **signed in** (`noqa status` shows an accoun
 
 ### 1. Debug on device — any signed-in account
 
-You drive the device: inspect the screen, then tap/swipe/drag/type via `noqa action`. **Prefer describing the target element in plain language with `--description`** and noqa resolves its location for you (grounding — free, just needs sign-in); see [Actions by description](references/actions-grounding.md). As a fallback, you can pass explicit relative coordinates — [Actions by coordinates](references/actions-coordinates.md). Requires a connected device; install a build and launch by bundle ID only if the app isn't already running. Use when the user wants to inspect or manually exercise an app.
+You drive the device: inspect the screen, then tap/swipe/drag/pinch/type via `noqa action`. **Prefer describing the target element in plain language with `--description`** and noqa resolves its location for you (grounding — free, just needs sign-in); see [Actions by description](references/actions-grounding.md). As a fallback, you can pass explicit relative coordinates — [Actions by coordinates](references/actions-coordinates.md). Requires a connected device; install a build and launch by bundle ID only if the app isn't already running. Use when the user wants to inspect or manually exercise an app.
 
 - Workflow: [Debug directly on device](workflows/debug-on-device.md)
 
